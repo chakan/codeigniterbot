@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Why did you do this?
 
-You can use the [editor on GitHub](https://github.com/chakan/codeigniterbot.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Recently I couldn't find any reliable bot that finds and promotes Codeigniter related contents, so I created one.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## How was it built?
 
-### Markdown
+This bot is built in [Codeigniter](https://codeigniter.com) and uses the awesome [Codebird](https://github.com/jublonet/codebird-php) PHP library to communicate with the Twitter API.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## What does it do?
 
-```markdown
-Syntax highlighted code block
+- Keeps track of the [official Codeigniter forums](https://forum.codeigniter.com/) News section and posts any new news article that it can find.
+- Checks for Codeigniter related tweets and favorites or retweets them following a magic formula.
+- Checks mentions of itself and replies with a 32 character length encryption key.
 
-# Header 1
-## Header 2
-### Header 3
+### Credits
 
-- Bulleted
-- List
+I'm a long time Codeigniter developer, who still uses this framework to create amazing things. Follow me on Twitter: [@ianchak](https://twitter.com/IanChak)
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/chakan/codeigniterbot.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+And of course follow this bot on Twitter too: [Codeigniter Bot on Twitter](https://twitter.com/codeigniterbot)
